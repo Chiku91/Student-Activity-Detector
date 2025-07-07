@@ -1,0 +1,19 @@
+# Core CV and ML libraries
+torch>=1.13.0          # Required for YOLOv5
+torchvision>=0.14.0    # Torch vision utils for models
+opencv-python>=4.8.0   # OpenCV for image processing
+numpy>=1.23.0          # Numerical computing
+
+# YOLO models
+ultralytics>=8.0.20    # YOLOv8 (used in activity.py and others)
+
+# MediaPipe for face, pose, and hand detection
+mediapipe==0.10.3      # MediaPipe's face mesh, hands, pose modules
+
+# Audio processing
+sounddevice>=0.4.6     # For microphone input stream
+CFFI>=1.15.0           # Needed by sounddevice
+pyaudio                # Optional fallback (if sounddevice fails)
+
+# Other helpful tools
+matplotlib>=3.7.0      # Optional: for plotting/debugging visuals
